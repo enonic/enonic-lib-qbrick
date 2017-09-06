@@ -1,0 +1,26 @@
+<macro>
+  <display-name>Qbrick Video</display-name>
+  <description>Insert a video</description>
+
+  <form>
+    <input name="videoID" type="CustomSelector">
+      <label>Select video</label>
+	  <occurrences minimum="1" maximum="1"/>
+	  <config>
+    <service>video-selector-service</service>
+  </config>
+    </input>
+	<input name="autoplay" type="CheckBox">
+		<label>Automatic playback</label>
+		<occurrences minimum="0" maximum="1"/>
+	</input>
+<input name="replay" type="CheckBox">
+<label>Replay video when finished</label>
+<occurrences minimum="0" maximum="1"/>
+</input>
+<input name="mute" type="CheckBox">
+<label>Mute audio on playback</label>
+<occurrences minimum="0" maximum="1"/>
+</input>
+  </form>
+</macro>
