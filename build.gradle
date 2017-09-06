@@ -42,11 +42,11 @@ bintray {
     key = "$bintrayApiKey"
     publish = true
     pkg {
-        repo = 'XP'
+        repo = 'Enonic'
         name = project.appName
-        userOrg = 'hoier'
+        userOrg = 'qbrickipo'
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/hoier/com.qbrick.qvp.git'
+        vcsUrl = 'https://github.com/QbrickIPO/com.qbrick.qvp.git'
 
         version {
             name = project.version
