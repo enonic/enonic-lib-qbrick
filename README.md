@@ -14,21 +14,21 @@ In build.gradle, add this to your buildscript's repositories:
 
 ```
 maven {
-	url  "http://dl.bintray.com/hoier/XP" 
+	url  "http://dl.bintray.com/qbrickipo/Enonic" 
 }
 ```
 
 After that, you must include the lib in build.gradle under dependencies:
 
 ```
-include 'com.qbrick:qvp:0.5.2'
+include 'com.qbrick:qvp:0.8'
 ```
 
 If you haven't allready have included the lib.http-client from Enonic, you must do that aswell:
 
 ```
 include 'com.enonic.lib:lib-http-client:1.0.0'
-include 'com.qbrick:qvp:0.5.2'
+include 'com.qbrick:qvp:0.8'
 ```
 Now you are ready to build.
 
