@@ -1,4 +1,4 @@
-# com.qbrick.qvp
+# enonic-lib-qbrick
 
 Exposes the Qbrick API and makes it easy for developers to use the Qbrick Video Platform on any Enonic XP site.
 
