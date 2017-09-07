@@ -19,7 +19,7 @@ maven {
 }
 ```
 
-Note that the build.gradle file has two sections for repositories, add the repo below to both!
+Note that the build.gradle file has two sections for repositories, add the repo above to both!
 
 
 After that, you must include the lib in build.gradle under dependencies:
