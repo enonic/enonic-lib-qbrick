@@ -10,14 +10,17 @@ It would also be wise to learn about the REST APIs that Qbrick use. The document
 
 ### Building
 
-In build.gradle, add this to your buildscript's repositories:
-Note that the build.gradle file has two sections for repositories, add the repo below to both!
+In build.gradle, add this to your buildscript's repositories.
+
 
 ```
 maven {
 	url  "http://dl.bintray.com/qbrickipo/Enonic" 
 }
 ```
+
+Note that the build.gradle file has two sections for repositories, add the repo below to both!
+
 
 After that, you must include the lib in build.gradle under dependencies:
 
